@@ -12,7 +12,7 @@ A quick study and fb-auth integration with my DS918+.
 
 ## Installation
 1. Clone this project into your workspace <br/>
-git clone https://github.com/bxxxjxxg/dsm-fb-auth/edit/master/README.md
+git clone https://github.com/bxxxjxxg/dsm-fb-auth
 
 2. Create https://your-website/fb-login/ portal<br/>
 cp dsm-fb-auth/etc/nginx/conf.d/www.fb-login.conf /etc/nginx/conf.d/ <br/>
@@ -31,7 +31,7 @@ mv php-graph-sdk/src /var/services/web/fb-login/ <br/>
 cp dsm-db-auth/var/services/web/fb-login/* /var/services/web/fb-login/
 
 5. Fill the configuration into force <br/>
-vim /var/services/web/fb-login/config.php <br/><br/>
+vim /var/services/web/fb-login/config.php <br/>
 
 6. Finish. Browse https://your-website/fb-login/ and make sure it works. <br/>
 \# You should also publish your Facebook application. Then other people can authenicate them afterwards.
@@ -45,3 +45,4 @@ Please enable openssl.so for PHP 7.0 and try again.
 - Facebook PHP SDK: https://developers.facebook.com/docs/reference/php/
 - Synology Dev Center: https://www.synology.com/zh-tw/support/developer
 - facebook/php-graph-sdk: https://github.com/facebook/php-graph-sdk
+- Entry Layout CSS: https://codepen.io/russbeye/pen/MYeroq
