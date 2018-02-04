@@ -12,7 +12,8 @@ A quick study and fb-auth integration with my DS918+.
 
 ## Installation
 1. Clone this project into your workspace <br/>
-git clone https://github.com/bxxxjxxg/dsm-fb-auth
+git clone https://github.com/bxxxjxxg/dsm-fb-auth or <br/>
+wget https://github.com/bxxxjxxg/dsm-fb-auth/archive/V1.0.tar.gz && tar zxvf V1.0.tar.gz 
 
 2. Create https://your-website/fb-login/ portal<br/>
 cp dsm-fb-auth/etc/nginx/conf.d/www.fb-login.conf /etc/nginx/conf.d/ <br/>
